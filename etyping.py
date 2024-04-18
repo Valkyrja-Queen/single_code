@@ -40,7 +40,7 @@ while True:
         type_text_element = driver.find_element(By.XPATH, '//*[@id="sentenceText"]/div/span[2]')
         type_text = type_text_element.text
         pyautogui.typewrite(type_text, interval=0.05)
-        time.sleep(0.5)
+        time.sleep(0.4)
     except NoSuchElementException:
         print("Element not found. Finishing...")
         break

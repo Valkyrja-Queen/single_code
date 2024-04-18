@@ -7,6 +7,7 @@ import time
 webdriver_service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=webdriver_service)
 
+# 汎用クラス
 class SeleniumCommon:
     
     
